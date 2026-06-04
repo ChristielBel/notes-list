@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NotesList</string>
+    <string name="notes_collapse">▲ Свернуть</string>
+    <string name="check_mark">✓</string>
+    <string name="heading">Заголовок</string>
+    <string name="must_be_filled_out">необходимо заполнить</string>
+    <string name="note_text">Текст заметки</string>
+    <string name="important">Важно</string>
+    <string name="read">Прочитано</string>
+    <string name="save">Сохранить</string>
+    <string name="add">Добавить</string>
+    <string name="create_at">Создано: %1$s</string>
+    <string name="is_too_long_message">Слишком длинный заголовок, нужно сократить</string>
+    <string name="search">Поиск</string>
+    <string name="spacing">Расстояние между карточками: %1$d</string>
+    <string name="max_visible">Макс. элементов в стопке: %1$d</string>
+</resources>

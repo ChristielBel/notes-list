@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NoteStyle">
+        <item name="noteBackgroundColor">@color/note_not_read</item>
+        <item name="noteTextColor">@color/text_primary</item>
+        <item name="noteCornerRadius">16dp</item>
+        <item name="noteElevation">6dp</item>
+    </style>
+
+    <style name="NoteStyle.NotRead" parent="NoteStyle">
+        <item name="noteBackgroundColor">@color/note_not_read</item>
+    </style>
+
+    <style name="NoteStyle.Read" parent="NoteStyle">
+        <item name="noteBackgroundColor">@color/note_read</item>
+    </style>
+
+    <style name="NoteDateHeaderText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/note_time_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

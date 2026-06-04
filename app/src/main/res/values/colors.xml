@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#929292</color>
+
+    <color name="text_primary">#000000</color>
+
+    <color name="note_title_color">#1E3A8A</color>
+    <color name="note_content_color">#424242</color>
+    <color name="note_time_color">#757575</color>
+
+    <color name="note_header_color">#E3F2FD</color>
+
+    <color name="note_star_color">#FFC107</color>
+    <color name="note_done_color">#4CAF50</color>
+
+    <color name="note_read">#F5F5F5</color>
+    <color name="note_not_read">#FFFFFF</color>
+
+    <color name="button_color">#1E88E5</color>
+</resources>
