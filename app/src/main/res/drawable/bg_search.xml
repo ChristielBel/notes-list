@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/note_not_read"/>
+
+    <corners android:radius="28dp"/>
+
+    <padding
+        android:left="48dp"
+        android:right="12dp"/>
+
+</shape>

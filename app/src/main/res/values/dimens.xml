@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="note_content_start_offset">16dp</dimen>
+    <dimen name="note_bottom_padding">16dp</dimen>
+    <dimen name="note_vertical_spacing">10dp</dimen>
+
+    <dimen name="note_icon_size">20dp</dimen>
+    <dimen name="note_done_margin">16dp</dimen>
+    <dimen name="note_header_extra_height">20dp</dimen>
+
+    <dimen name="note_corner_radius">16dp</dimen>
+    <dimen name="note_elevation">8dp</dimen>
+
+    <dimen name="note_item_spacing">20dp</dimen>
+
+    <dimen name="note_title_text_size">16sp</dimen>
+    <dimen name="note_content_text_size">14sp</dimen>
+    <dimen name="note_time_text_size">12sp</dimen>
+    <dimen name="note_done_text_size">12sp</dimen>
+
+    <dimen name="note_stack_default_spacing">36dp</dimen>
+    <dimen name="note_stack_horizontal_offset">14dp</dimen>
+
+    <dimen name="date_header_horizontal">16dp</dimen>
+    <dimen name="date_header_vertical">12dp</dimen>
+    <dimen name="date_header_line_width">1dp</dimen>
+    <dimen name="date_header_radius">25dp</dimen>
+
+    <dimen name="decoration_spacing">24dp</dimen>
+</resources>
