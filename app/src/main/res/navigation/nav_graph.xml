@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.noteslist.presentation.ui.fragment.NotesFragment">
+
+        <action
+            android:id="@+id/action_to_editor"
+            app:destination="@id/editorFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/notesFragment"
+            app:popUpToInclusive="false"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/editorFragment"
+        android:name="com.example.noteslist.presentation.ui.fragment.EditorFragment">
+
+        <argument
+            android:name="note"
+            app:argType="com.example.noteslist.domain.model.NoteParcel"
+            app:nullable="true" />
+    </fragment>
+</navigation>
